@@ -1,5 +1,5 @@
 let i = 10
-if(i*==0)
+if(i*=0)
 {
     console.log ("multiple by 3")
     }
