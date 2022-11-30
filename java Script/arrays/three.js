@@ -6,5 +6,4 @@ eno[1] =12
 eno[2] =13
 eno[3] ="hello"
 for ( let i =0; i<=eno.length-1; i=i+1)
-console.log(i)
 console.log (eno)
