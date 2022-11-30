@@ -1,7 +1,7 @@
-let i = 1 ;
-{
+let i= 10;
+while(i=i-1){
      console.log(i);
-     i=i+1
+  
+     (i>=0);
 }
-while
-    (i<=5);
+    
