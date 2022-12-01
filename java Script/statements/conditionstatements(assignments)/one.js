@@ -1,4 +1,4 @@
-let i =15;
+let i =14;
 if(i%7==0)
 {
 console.log ("div by 7")

@@ -1,4 +1,4 @@
-let num = 623;
+let num = 622;
 if (num % 2 == 0) {
     console.log("Even Number ")
 }
