@@ -99,4 +99,4 @@ let forms = [{ "id": 1, "first_name": "Constantino", "last_name": "Pardey", "ema
 { "id": 100, "first_name": "Christoph", "last_name": "Alenov", "email": "calenov2r@elpais.com", "gender": "Male", "ip_address": "164.23.196.184" }]
 for (form of forms) {
     console.log (form.email)
-}
+} 
