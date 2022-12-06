@@ -17,5 +17,5 @@ function clr(){
     results.value="0"
 }
 function del(){
-    results.value=result.value.slice(0,-1)
+    results.value=result.value.slice(0,-2)
 }
