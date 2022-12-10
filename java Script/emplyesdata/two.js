@@ -498,16 +498,30 @@ let emplyes = [{ "id": 1, "name": "Adelbert", "email": "apanyer0@wisc.edu", "gen
 { "id": 498, "name": "Corbett", "email": "ckendledt@epa.gov", "gender": "Male" },
 { "id": 499, "name": "Coletta", "email": "cpengillydu@flickr.com", "gender": "Female" },
 { "id": 500, "name": "Art", "email": "aworgandv@japanpost.jp", "gender": "Male" }]
-function displayData(){
+function displayData() {
     let rows = " "
-   let i=0 
-    for (i=0,i<=emplyes.length-1,i=i+1),
-    `<tr>
-<td>${emplye.id}</td>
-<td>${emplye.name}</td>
-<td>${emplye.email}</td>
-<td>${emplye.gender}</td>
+    // let i = 1
+
+    for (i = 0; i<= emplyes.length;  i++ )
+    console.log(emplyes[i].name) 
+// {
+//         return  rows + " " + emplyes
+//         `<tr>
+// <td>${emplyes.id}</td>
+// <td>${emplyes.name}</td>
+// <td>${emplyes.email}</td>
+// <td>${emplyes.gender}</td>
+// </tr>`
+//     i = i++}
+{
+    rows =
+        rows + `<tr>
+<td>${emplyes[i].id}</td>
+<td>${emplyes[i].name}</td> 
+<td>${emplyes.email}</td>
+<td>${emplyes.gender}</td>
+
 </tr>`
-    }
+}
     document.getElementById("hello").innerHTML = rows;
 }

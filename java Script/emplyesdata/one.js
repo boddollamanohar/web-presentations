@@ -504,9 +504,10 @@ function displayData(){
         rows =
             rows + `<tr>
 <td>${emplye.id}</td>
-<td>${emplye.name}</td>
+<td>${emplye.name}</td> 
 <td>${emplye.email}</td>
 <td>${emplye.gender}</td>
+
 </tr>`
     }
     document.getElementById("manu").innerHTML = rows;
