@@ -502,8 +502,21 @@ function displayData() {
     let rows = " "
     // let i = 1
 
-    for (i = 0; i<= emplyes.length;  i++ )
-    console.log(emplyes[i].name) 
+    for (i = 0; i<= emplyes.length-1;  i++ )
+
+{
+    rows =
+        rows + `<tr>
+<td>${emplyes[i].id}</td>
+<td>${emplyes[i].name}</td> 
+<td>${emplyes[i].email}</td>
+<td>${emplyes[i].gender}</td>
+<td>${emplyes[i].email.substr(users[i].email.indexOf('@') + 1)}</td>
+
+</tr>`
+}
+    document.getElementById("hello").innerHTML = rows;
+}
 // {
 //         return  rows + " " + emplyes
 //         `<tr>
@@ -513,15 +526,3 @@ function displayData() {
 // <td>${emplyes.gender}</td>
 // </tr>`
 //     i = i++}
-{
-    rows =
-        rows + `<tr>
-<td>${emplyes[i].id}</td>
-<td>${emplyes[i].name}</td> 
-<td>${emplyes.email}</td>
-<td>${emplyes.gender}</td>
-
-</tr>`
-}
-    document.getElementById("hello").innerHTML = rows;
-}
