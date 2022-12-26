@@ -498,22 +498,22 @@ let emplyes = [{ "id": 1, "name": "Adelbert", "email": "apanyer0@wisc.edu", "gen
 { "id": 498, "name": "Corbett", "email": "ckendledt@epa.gov", "gender": "Male" },
 { "id": 499, "name": "Coletta", "email": "cpengillydu@flickr.com", "gender": "Female" },
 { "id": 500, "name": "Art", "email": "aworgandv@japanpost.jp", "gender": "Male" }]
-// function displayData(){
-//     let rows = " "
-//     for (emplye of emplyes) {
-//         rows =
-//             rows + `<tr>
-// <td>${emplyes[i].id}</td>
-// <td>${emplyes[i].name}</td> 
-// <td>${emplyes[i].email}</td>
-// <td>${emplyes[i].gender}</td>
-// <td>${emplyes[i].email.substr(users[i].email.indexOf('@') + 1)}</td>
+function displayData(){
+    let rows = " "
+    for (emplye of emplyes) {
+        rows =
+            rows + `<tr>
+<td>${emplyes[i].id}</td>
+<td>${emplyes[i].name}</td> 
+<td>${emplyes[i].email}</td>
+<td>${emplyes[i].gender}</td>
+<td>${emplyes[i].email.Substr(users[i].email.indexOf('@') + 1)}</td>
 
-// </tr>`
-//     }
-//     document.getElementById("manu").innerHTML = rows;
-// }
-function displayData() {
+</tr>`
+    }
+    document.getElementById("manu").innerHTML = rows;
+}
+/* function displayData() {
     let rows = " "
     // let i = 1
 
@@ -530,5 +530,4 @@ function displayData() {
 
 </tr>`
 }
-    document.getElementById("hello").innerHTML = rows;
-}
+    document.getElementById("manu").innerHTML = rows; */
